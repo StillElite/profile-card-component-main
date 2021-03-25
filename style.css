@@ -1,0 +1,92 @@
+.main {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 325px;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+
+.card-top{
+    background: url(images/bg-pattern-card.svg);
+    height: 138px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.card-bottom{
+    padding-top: 65px;
+}
+
+
+.profilePic{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 23%;
+    left: 50%
+}
+
+.profilePic img{
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.profile-info{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.profile-name{
+    margin-bottom: 0;
+}
+
+.profile-info strong{
+    font-weight: 700;
+}
+
+.profile-location{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.stats-list{
+    height: 160px;
+}
+
+.stat-wrapper{
+    padding: 0 15px
+}
+
+.stats{
+    width: 33.33%;
+    margin: 0;
+    float: left;
+    padding-top: 10px;
+}
+
+.stat-amount{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-name{
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 0; 
+}
