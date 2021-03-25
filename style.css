@@ -1,3 +1,11 @@
+body{
+    background: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: bottom -63vh right 50vw, left 50vw top 50vh;
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
 .main {
     position: fixed;
     height: 100%;
@@ -30,7 +38,6 @@
 .card-bottom{
     padding-top: 65px;
 }
-
 
 .profilePic{
     display: flex;
